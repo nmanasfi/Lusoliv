@@ -1,0 +1,1 @@
+export default function SectionHeading({kicker,title}:{kicker:string,title:string}){return(<div className='mb-10'><div className='text-xs uppercase tracking-widest text-olive-600'>{kicker}</div><h2 className='text-2xl md:text-4xl font-semibold text-olive-900 mt-2'>{title}</h2></div>);}
